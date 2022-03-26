@@ -8,7 +8,7 @@ public class Raptor implements AbilitiesOfCreatures {
     int defencePoints = 6;
     int superpowerPoints = 8;
     int goodGuyPointOfAppearing = 0;
-    String goodGuyAnswer = "\t # Hi man! Can I help you? That is to say 'what a hell are you doing here?!' #\n";
+    String goodGuyAnswer = "\t # Hi man! Can I help you?? That is to say 'what a hell are you doing here?!' #\n";
 
     public int getDamage(int enemyDamagePoints) {
         health -= enemyDamagePoints;
